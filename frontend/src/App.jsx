@@ -17,13 +17,13 @@ function App() {
 
   return (
     <>
-      <h1>First frontend and backend merger</h1>
+      <h1>Jokes</h1>
       <p>Jokes: {jokes.length}</p>
       {
         jokes.map((joke) => (
           <div key={joke.id}>
-            <h3>{joke.title}</h3>
-            <p>{joke.punchline}</p>
+            <h3>Title:{joke.title}</h3>
+            <p>Punchline:{joke.punchline}</p>
           </div>
         ))
       }
